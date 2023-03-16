@@ -7,7 +7,7 @@ const Contact = () => {
   const control = useAnimation();
   return (
     <>
-      <div className="h-screen pt-16  bg-yellow-100">
+      <div className="h-screen pt-16 relative bg-yellow-100 overflow-hidden">
         <div className="px-5 py-5 relative z-20">
           <h1 className=" text-center text-xl font-bold font-poppins">
             PESAN BAKSOJOS
@@ -24,7 +24,7 @@ const Contact = () => {
               placeholder="Masukkan Alamat"
             />
             <Link
-              className="bg-yellow-300 w-28 text-center h-12 p-3 rounded-md  hover:w-40 hover:h-44 transition-all group hover:text-center font-lobster"
+              className="bg-yellow-300 w-32 text-center h-12 p-3 rounded-md  hover:w-40 hover:h-44 transition-all group hover:text-center font-lobster"
               onClick={() => {
                 control.start({
                   y: 1000,

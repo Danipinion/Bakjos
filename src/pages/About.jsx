@@ -3,7 +3,7 @@ import isi from "../assets/isi.png";
 
 const About = () => {
   return (
-    <div className="h-screen pt-16 px-5 bg-yellow-100">
+    <div className="sm:h-screen sm:pt-16 pt-32 px-5 bg-yellow-100">
       <motion.div className="right fixed w-full h-full bg">
         <motion.img
           src={isi}
@@ -22,7 +22,7 @@ const About = () => {
           transition={{ type: "spring", duration: 2 }}
         />
       </motion.div>
-      <div className="bg-yellow-400 h-full p-10 font-poppins flex flex-col justify-center items-center">
+      <div className="bg-yellow-400 h-full pt-20 pb-5 sm:p-10 font-poppins flex flex-col justify-center items-center">
         <h1 className="text-3xl text-center bg-center z-10">
           ABOUT{" "}
           <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-yellow-600 relative inline-block">

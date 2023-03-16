@@ -33,11 +33,11 @@ export const Navbar = () => {
           <div
             className={
               open
-                ? "navbar-collapse font-poppins block sm:flex absolute top-20 left-20 w-full"
+                ? "navbar-collapse font-poppins block sm:flex absolute top-20 left-12 w-full"
                 : "navbar-collapse font-poppins hidden sm:flex"
             }
           >
-            <ul className="navbar-items ml-auto flex gap-7">
+            <ul className="navbar-items mx-auto flex gap-7">
               <li>
                 <NavLink
                   to="/"
