@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .nav-link.active {
+    @apply bg-black text-orange-400 p-3 rounded-md;
+  }
+}
+@layer components {
+  .glass {
+    @apply bg-yellow-800;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+  }
+}
