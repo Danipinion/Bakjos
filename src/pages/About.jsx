@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import isi from "../assets/isi.png";
+import isi from "../assets/isi.webp";
 
 const About = () => {
   return (

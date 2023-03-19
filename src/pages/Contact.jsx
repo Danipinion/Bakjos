@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import isi from "../assets/isi.png";
+import isi from "../assets/isi.webp";
 import Wave from "react-wavify";
 import { motion, useAnimation } from "framer-motion";
 import { Link } from "react-router-dom";

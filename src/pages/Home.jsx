@@ -2,13 +2,13 @@ import { Link } from "react-router-dom";
 import React from "react";
 import Typewriter from "typewriter-effect";
 
-import bakso from "../assets/bakso.png";
-import isi from "../assets/isi.png";
-import cuka from "../assets/cuka.png";
-import sambal from "../assets/sambal.png";
-import text1 from "../assets/text1.png";
-import text2 from "../assets/text2.png";
-import text3 from "../assets/text3.png";
+import bakso from "../assets/bakso.webp";
+import isi from "../assets/isi.webp";
+import cuka from "../assets/cuka.webp";
+import sambal from "../assets/sambal.webp";
+import text1 from "../assets/text1.webp";
+import text2 from "../assets/text2.webp";
+import text3 from "../assets/text3.webp";
 
 const Home = () => {
   return (
